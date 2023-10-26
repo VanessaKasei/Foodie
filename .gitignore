@@ -1,0 +1,160 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+
+.dart_tool/
+.idea/ (if you're using IntelliJ IDEA)
+.vscode/ (if you're using Visual Studio Code)
+build/
+ios/Pods/
+macos/Flutter/
+android/.gradle/
+android/build/
+android/gradle/
+web/build/
+windows/flutter/flutter_application_release_x64/ (if you're building for Windows)
+.pub-cache/
+
+ios/Podfile.lock
+android/local.properties
+android/app/key.properties (if storing sensitive keys)
+.vscode/settings.json (if you have specific VS Code settings)
+.idea/codeStyles/
+.idea/misc.xml
+pubspec.lock (it's typically recommended to include pubspec.yaml but exclude pubspec.lock)
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+.env (used for storing environment variables)
+.env.local (used for local development environment variables)
+.packages (if it exists)
+.dart_tool/flutter_build/
+.flutter-plugins (stores Flutter plugin configuration)
+.metadata (Dart analysis cache)
+android/app/build/
+ios/Flutter/
+*.log (log files)
+*.crash (crash reports)
+*.dmp (dump files)
+.vscode/settings.json (VS Code specific settings)
+.idea/ (IntelliJ IDEA specific settings)
+.settings/ 
+package-lock.json
+node_modules/
+
+
+# Flutter/Dart specific
+.idea/
+.vscode/
+.pub/
+.packages
+pubspec.lock
+pubspec.yaml
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# Miscellaneous
+/build/
+/ios/Pods/
+/macos/GeneratedPluginRegistrant.h
+/macos/GeneratedPluginRegistrant.m
+/macos/Pods/
+/web/packages/
+/web/pubspec.lock
+/web/pubspec.yaml
+/web/build/
+/web/.dart_tool/
+/windows/flutter/generated_plugin_registrant.*
+
+# Android
+**/android/.gradle/
+**/android/local.properties
+**/android/build/
+**/android/app/src/main/flutter_assets/
+**/android/app/build/
+
+# iOS
+**/ios/Podfile.lock
+**/ios/Pods/
+**/ios/Flutter/Flutter.framework/
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/AppFrameworkInfo.plist
+**/ios/Flutter/Debug.xcconfig
+**/ios/Flutter/Release.xcconfig
+**/ios/Flutter/AppFrameworkInfo.debug.xcconfig
+**/ios/Flutter/AppFrameworkInfo.release.xcconfig
+**/ios/Generated.xcconfig
+
+# Xcode
+**/*.mode1v3
+**/*.mode2v3
+**/*.moved-aside
+**/*.pbxuser
+**/*.perspectivev3
+**/*.xcworkspace
+**/*.xcuserstate
+**/project.xcworkspace
+**/XCDeviceModel.xcscheme
+**/XCUserData/
+**/xcode.*
+
+# Android Studio
+.metadata
+.dart_tool/
+
+# VS Code
+.vscode/
+
+# Exclude platform-specific directories
+web/
+windows/
+linux/
+macos/
+
+lib/firebase_options.dart
